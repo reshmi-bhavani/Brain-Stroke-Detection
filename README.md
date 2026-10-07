@@ -32,10 +32,11 @@ The project also uses **SMOTE** to handle class imbalance and **SHAP** to provid
 
 | **Metric** | **Score** |
 | ---------- | --------- |
-| Accuracy   | 93–95%    |
-| Precision  | 90–93%    |
-| Recall     | 92–95%    |
-| ROC-AUC    | 0.95–0.97 |
+| Accuracy   | 87.18%    |
+| Precision  | 14.78%   |
+| Recall     | 34.00%    |
+| F1-Score   | 20.61%   |
+| ROC-AUC    | 0.7865 |
 
 ## How to Run
 
