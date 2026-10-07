@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a machine learning-based system designed to predict the risk of brain stroke using patient health information. It uses a **hybrid stacking ensemble model** combining Random Forest, Gradient Boosting, and Logistic Regression to improve prediction performance.
+This project is a machine learning-based system designed to predict the risk of brain stroke using patient health information. It uses a **hybrid stacking ensemble model** combining Random Forest, Gradient Boosting, and Soft Voting to improve prediction performance.
 
 The project also uses **SMOTE** to handle class imbalance and **SHAP** to provide explainable insights into the factors influencing the model's predictions.
 
@@ -10,7 +10,7 @@ The project also uses **SMOTE** to handle class imbalance and **SHAP** to provid
 
 * Hybrid stacking ensemble machine learning model
 * Brain stroke risk prediction using patient health parameters
-* Random Forest, Gradient Boosting, and Logistic Regression
+* Random Forest, Gradient Boosting
 * SMOTE for handling class imbalance
 * Feature engineering for improved prediction
 * Explainable AI using SHAP
@@ -27,15 +27,6 @@ The project also uses **SMOTE** to handle class imbalance and **SHAP** to provid
 * Seaborn
 * Jupyter Notebook
 
-## Machine Learning Models
-
-The project uses a stacking ensemble approach that combines:
-
-* **Random Forest**
-* **Gradient Boosting**
-* **Logistic Regression**
-
-SMOTE is applied during data preprocessing to address the class imbalance in the stroke dataset.
 
 ## Model Performance
 
