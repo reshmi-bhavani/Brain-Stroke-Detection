@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a machine learning-based system designed to predict the risk of brain stroke using patient health information. It uses a **hybrid stacking ensemble model** combining Random Forest, Gradient Boosting, and Soft Voting to improve prediction performance.
+This project is a machine learning-based system designed to predict the risk of brain stroke using patient health information. It uses a **ensemble model** combining Random Forest, Gradient Boosting, and Soft Voting to improve prediction performance.
 
 The project also uses **SMOTE** to handle class imbalance and **SHAP** to provide explainable insights into the factors influencing the model's predictions.
 
